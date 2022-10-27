@@ -1,0 +1,198 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: auto;
+}
+
+.logo {
+    width: 45%; 
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.navigation {
+    width: 100%;
+    /* width: 118%; */
+    height: 20%;
+    
+}
+
+body {
+    background-color: #0D1526;
+    margin: 0;
+}
+
+nav {
+    /* width: 100%; */
+    /* padding: 1%; */
+    background-color: #333B50;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 2.5%;
+}
+
+p {
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+    /* margin-left: auto; */
+}
+
+li { 
+    color: white;
+    padding: 5px
+}
+
+
+
+.heroimg {
+    /* height: 600px; */
+    background-image: url("/images/WorkstationTools.png");
+    background-position:center;
+    background-size:cover;
+    background-color: #0D1526;
+    padding: 25px;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image {
+background-image: url("/images/WallyandI.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 600px;
+height: 400px; 
+}
+
+footer {
+    background-color: #333B50;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.flexContainer {
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    padding: 5%;
+    padding-top: 4%;
+    padding-right: 15%;
+    justify-content: center;
+    padding-left: 15%;
+    padding-bottom: 2%;
+    background-color: #0D1526;
+    background-size: cover;
+}
+
+
+.whitetext {
+    color: white;
+}
+
+h3 { 
+    color: white;
+}
+
+h1 { 
+    color: white;
+}
+
+h2 { 
+    color: white;
+}
+
+h4 { 
+    color: white;
+}
+
+.mySkills {
+    text-align: center;
+}
+
+.workGrid {
+    width: 50%;
+    display: grid;
+    gap: 5%;
+    row-gap: 10%;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    padding-left: 27%;
+    padding-bottom: 5%;
+}
+
+.myWork {
+    text-align: center;
+    justify-content: auto;
+    padding: 5%;
+    padding-left: 7.7%;
+    color: white;
+    height: 1%;
+}
+
+button {
+   border-color: limegreen;
+   color: white;
+   background-color:#333B50;
+}
+
+.workIt {
+    background-image: url("/images/WireframesBackground.png");
+    background-position:center;
+    background-size:cover;
+    background-color: #0D1526;
+}
+
+@media screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 20px;
+        padding: 5%;
+        padding-top: 4%;
+        padding-right: 15%;
+        justify-content: center;
+        padding-left: 15%;
+        padding-bottom: 2%;
+        background-color: #0D1526;
+        background-size: cover;
+    }
+    .workGrid {
+        width: 100%;
+        display: grid;
+        gap: 5%;
+        row-gap: 10%;
+        grid-template-columns: auto auto;
+        align-items: center;
+        align-content: center;
+        padding: 1%;
+        padding-top: 7%;
+        padding-left: 1%;
+        padding-bottom: 7%;
+    }
+    .myWork {
+        text-align: center;
+        padding: 0%;
+        padding-top: 15%;
+        padding-left: 20%;
+        color: white;
+        height: 1%;
+}}
