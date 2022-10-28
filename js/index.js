@@ -1,5 +1,5 @@
 console.log("Your index.js file is loaded corrcectly");
-//.on event listener documentation - https://api.jquery.com/on/#on-events-selector-data-handler
+
 $( "#button").hover(
     function() {
         $(this).css("background-color", "limegreen");
