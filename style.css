@@ -53,7 +53,7 @@ li {
 
 .heroimg {
     /* height: 600px; */
-    background-image: url("/images/WorkstationTools.png");
+    background-image: url("images/WorkstationTools.png");
     background-position:center;
     background-size:cover;
     background-color: #0D1526;
@@ -67,7 +67,7 @@ li {
 }
 
 .image {
-background-image: url("/images/WallyandI.jpg");
+background-image: url("images/WallyandI.jpg");
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
@@ -154,7 +154,7 @@ button {
 }
 
 .workIt {
-    background-image: url("/images/WireframesBackground.png");
+    background-image: url("images/WireframesBackground.png");
     background-position:center;
     background-size:cover;
     background-color: #0D1526;
