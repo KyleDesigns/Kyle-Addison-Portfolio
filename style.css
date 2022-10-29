@@ -181,7 +181,7 @@ button {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .flexContainer {
         display: flex;
         flex-direction: column;
@@ -197,16 +197,15 @@ button {
         background-size: cover;
     }
     .workGrid {
-        width: 100%;
+        width: 90%;
         display:inline-block;
         justify-items: center;
         gap: 5%;
         row-gap: 10%;
         align-items: center;
         align-content: center;
-        padding: 1%;
-        padding-right: 5%;
-        margin-right: 50px;
+        padding-left: 5%;
+        margin: auto;
     }
     .myWork {
         text-align: center;
@@ -227,8 +226,8 @@ button {
 }
 
 .content {
-    width: 450px;
-    margin: 0 auto;
+    width: 420px;
+    margin: auto;
     text-align: center;
 }
 
@@ -239,6 +238,6 @@ background-repeat: no-repeat;
 background-position: center;
 width: 400px;
 height: 200px; 
-padding: 5%;
+padding: 0%;
 padding-left: 10%;
 }}
