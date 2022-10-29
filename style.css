@@ -219,16 +219,18 @@ button {
     /* height: 600px; */
     background-image: url("images/WorkstationTools.png");
     background-position:center;
-    background-size:cover;
+    background-size:contain;
     background-color: #0D1526;
     padding: 25px;
     padding-bottom: 40px;
 }
 
 .content {
-    width: 420px;
+    width:auto;
     margin: auto;
     text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 .image {
@@ -236,10 +238,11 @@ background-image: url("images/WallyandIbrighter.jpg");
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
-width: 400px;
+width: 200px;
 height: 200px; 
 padding: 0%;
 padding-left: 10%;
+margin: auto;
 }
 
 nav {
