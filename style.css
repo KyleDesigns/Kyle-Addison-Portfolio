@@ -197,7 +197,7 @@ button {
         background-size: cover;
     }
     .workGrid {
-        width: 90%;
+        width: 85%;
         display:inline-block;
         justify-items: center;
         gap: 5%;
@@ -226,7 +226,7 @@ button {
 }
 
 .content {
-    width:auto;
+    width: 250px;
     margin: auto;
     text-align: center;
     align-items: center;
