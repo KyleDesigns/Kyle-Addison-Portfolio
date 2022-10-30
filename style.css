@@ -59,6 +59,7 @@ li {
     background-image: url("images/WorkstationTools.png");
     background-position:center;
     background-size:cover;
+    background-repeat: no-repeat;
     background-color: #0D1526;
     padding: 25px;
     padding-bottom: 40px;
@@ -207,6 +208,16 @@ button {
         padding-left: 5%;
         margin: auto;
     }
+
+    .workIt {
+        background-image: url("images/WireframesBackground.png");
+        background-position:40%;
+        background-repeat:repeat-x;
+        background-size:cover;
+        background-color: #0D1526;
+        padding-bottom: 1%;
+    }
+    
     .myWork {
         text-align: center;
         padding: 0%;
@@ -219,7 +230,7 @@ button {
     /* height: 600px; */
     background-image: url("images/WorkstationTools.png");
     background-position:center;
-    background-size:contain;
+    background-size:cover;
     background-color: #0D1526;
     padding: 25px;
     padding-bottom: 40px;
