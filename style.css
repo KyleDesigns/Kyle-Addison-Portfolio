@@ -230,6 +230,7 @@ button {
     /* height: 600px; */
     background-image: url("images/WorkstationTools.png");
     background-position:center;
+    background-repeat: no-repeat;
     background-size:cover;
     background-color: #0D1526;
     padding: 25px;
