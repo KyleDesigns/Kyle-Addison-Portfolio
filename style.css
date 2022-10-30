@@ -53,9 +53,7 @@ li {
     padding: 5px
 }
 
-.name {
-    margin-bottom: 0%;
-}
+
 
 .heroimg {
     /* height: 600px; */
@@ -241,7 +239,7 @@ button {
 }
 
 .content {
-    width: 280px;
+    width: 283px;
     margin: auto;
     text-align: center;
     align-items: center;
