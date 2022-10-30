@@ -43,6 +43,7 @@ ul {
     display: flex;
     justify-content: center;
     padding:0%;
+    gap: 2%;
     /* width: 50%; */
     /* margin-left: auto; */
 }
@@ -50,7 +51,8 @@ ul {
 
 li { 
     color: white;
-    padding: 5px
+    padding: 5px;
+    gap: 20px;
 }
 
 
