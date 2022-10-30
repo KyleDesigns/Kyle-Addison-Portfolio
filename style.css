@@ -43,7 +43,7 @@ ul {
     display: flex;
     justify-content: center;
     padding:0%;
-    gap: 2%;
+    gap: 3%;
     /* width: 50%; */
     /* margin-left: auto; */
 }
@@ -172,8 +172,17 @@ button {
    color: white;
    background-color:#333B50;
    cursor: pointer;
-   padding: 1.5%;
+   padding: 2.5%;
 }
+
+.buttonR {
+    border-color: limegreen;
+    border-width: 3px;
+    color: white;
+    background-color:#333B50;
+    cursor: pointer;
+    padding: 1.7%;
+ }
 
 .workIt {
     background-image: url("images/WireframesBackground.png");
@@ -284,4 +293,22 @@ ul {
     padding-left: 10%;
     text-align: center;
 
-}}
+}
+
+button {
+    border-color: limegreen;
+    color: white;
+    background-color:#333B50;
+    cursor: pointer;
+    padding: 2%;
+ }
+
+ .buttonR {
+    border-color: limegreen;
+    color: white;
+    background-color:#333B50;
+    cursor: pointer;
+    padding: 4%;
+ }
+
+}
