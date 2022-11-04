@@ -44,6 +44,7 @@ ul {
     justify-content: center;
     padding:0%;
     gap: 3%;
+    text-decoration: white;
     /* width: 50%; */
     /* margin-left: auto; */
 }
@@ -55,7 +56,49 @@ li {
     gap: 20px;
 }
 
+#about {
+    color: white;
+    text-decoration:  white;
+}
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2%; /* Remove borders */
+    text-decoration: none;
+    outline-style: solid;
+    border-block-end-style: solid;
+    border-block-start-style: solid;
+    border-block-style: solid;
+    border-block-end-color: limegreen;
+    border-block-start-color: limegreen;
+    outline: limegreen; /* Remove outline */
+    background-color: #0D1526; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-top: 10px; /* Some padding */
+    padding-bottom:8px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 800px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+    letter-spacing: 0%;
+    word-spacing: 0%;
+    transform: scale(1, -1);
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1);
+  }
+  
+  #myBtn:hover {
+    color: #0D1526;
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 .heroimg {
     /* height: 600px; */
@@ -170,7 +213,7 @@ h4 {
 button {
    border-color: limegreen;
    color: white;
-   background-color:#333B50;
+   background-color:#0D1526;
    cursor: pointer;
    padding: 2.5%;
 }
@@ -179,7 +222,7 @@ button {
     border-color: limegreen;
     border-width: 3px;
     color: white;
-    background-color:#333B50;
+    background-color:#0D1526;
     cursor: pointer;
     padding: 1.7%;
  }

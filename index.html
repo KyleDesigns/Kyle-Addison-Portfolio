@@ -8,22 +8,23 @@
         <title></title>
     </head>
     <body>
-<header class="navigation">
+<header class="navigation" id="top">
     
 <!-- <nav class="inline-block"> -->
 <nav>
   <div class="inline-block">
 <img src="images/KATlogoColor.png" alt="Portfolio Logo" class="logo">
-</div
-><ul>
-        <li class="inline-block">ABOUT</li>
-        <li class="inline-block">SKILLS</li>
-        <li class="inline-block">WORK</li>
-        <li class="inline-block">CONTACT</li>
-    </ul>  
+</div>
+<ul>
+    <li class="inline-block"><a href="#about" style="color:white; text-decoration: none;">ABOUT</a></li>
+    <li class="inline-block"><a href="#skills" style="color:white; text-decoration: none;">SKILLS</a></li>
+    <li class="inline-block"><a href="#work" style="color:white; text-decoration: none;">WORK</a></li>
+    <li class="inline-block"><a href="#contact" style="color:white; text-decoration: none;">CONTACT</a></li>
+</ul> 
 </nav>
 </header>
-<section class="heroimg">
+
+<section class="heroimg" id="about">
     <div class="content">
         <div class="image"></div>
        <!-- <img src="./images/WallyandI.jpg" alt="Picture of me outside"> -->
@@ -41,7 +42,7 @@
     </div>
 </section>
 <!--  My UX Skills section coded using CSS flex -->
-<section class="mySkills">
+<section class="mySkills" id="skills">
     <h1>MY UX SKILLS</h1>
     <div class="flexContainer">
         <div>
@@ -62,7 +63,7 @@
     </div>
 </section>
 <!-- My Work Section Constructed using CSS Grid -->
-<section class="workIt">
+<section class="workIt" id="work">
     <h1 class="myWork">MY WORK</h1>
     <div class="workGrid">
         <div style="padding-top: 8%;">
@@ -92,13 +93,14 @@
     </div>
     <h3 id="myWork2">View All Projects</h3>
 </section>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#top" style="color:white; text-decoration: none;">V</a></button>
 </body>
 <footer>
     <ul>
-        <li class="inline-block">ABOUT</li>
-        <li class="inline-block">SKILLS</li>
-        <li class="inline-block">WORK</li>
-        <li class="inline-block">CONTACT</li>
+        <li class="inline-block"><a href="#about" style="color:white; text-decoration: none;">ABOUT</a></li>
+        <li class="inline-block"><a href="#skills" style="color:white; text-decoration: none;">SKILLS</a></li>
+        <li class="inline-block"><a href="#work" style="color:white; text-decoration: none;">WORK</a></li>
+        <li class="inline-block"><a href="#contact" style="color:white; text-decoration: none;">CONTACT</a></li>
     </ul>  
 </footer>
 <script src="js/index.js"></script>
